@@ -99,9 +99,9 @@ function! s:VisualMode()
 endfunction
 
 function! s:UserColors()
-    exec "highlight User1 ctermbg=4 guibg="   . s:blue    . " ctermfg=234 guifg=" . s:grey234
+    exec "highlight User1 ctermbg=109 guibg="   . s:blue    . " ctermfg=234 guifg=" . s:grey234
     exec "highlight User2 ctermbg=251 guibg=" . s:white   . " ctermfg=234 guifg=" . s:grey234
-    exec "highlight User3 ctermbg=13 guibg="  . s:purple  . " ctermfg=234 guifg=" . s:grey234
+    exec "highlight User3 ctermbg=118 guibg="  . s:purple  . " ctermfg=234 guifg=" . s:grey234
     exec "highlight User4 ctermbg=9 guibg="   . s:crimson . " ctermfg=234 guifg=" . s:grey234
     exec "highlight User5 ctermbg=8 guibg="   . s:coral   . " ctermfg=234 guifg=" . s:grey234
     exec "highlight User6 ctermbg=11 guibg="  . s:wheat   . " ctermfg=234 guifg=" . s:grey234
